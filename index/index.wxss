@@ -1,0 +1,42 @@
+
+
+.item{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #00d8a0;
+}
+.item2{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #FFE4E1;
+}
+
+.item3{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #A0522D;
+}
+
+.item4{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #000000;
+}
+
+.item5{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #FF0000;
+}
+
+.item6{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #7FFF00;
+}
+
+
+.img1{
+  width: 200px;
+  height: 100px;
+}

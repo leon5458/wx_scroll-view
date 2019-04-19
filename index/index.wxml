@@ -1,0 +1,39 @@
+
+<!--垂直滚动，这里必须设置高度-->
+<text bindtap='click'>垂直方向</text>
+<scroll-view scroll-y="true" style="height: 300px" scroll-top="30px"
+    bindscrolltoupper="upper"
+    bindscrolltolower="lower"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+    bindscroll="scroll">
+    <view id='test' class="item"></view>
+    <view id='test1' class="item1"></view>
+    <view id='test2' class="item2"></view>
+    <view  id='test3' class="item3"></view>
+    <view  id='test4' class="item4"></view>
+    <view  id='test5' class="item5"></view>
+</scroll-view>
+ 
+<!--水平滚动-->
+<text>水平方向</text>
+<scroll-view scroll-x="true" style=" white-space: nowrap">
+  <image src='https://github.com/leon5458/my_use_image/blob/master/my_use_image/a2.jpg?raw=true' class='img1'></image>
+
+    <image src='https://github.com/leon5458/my_use_image/blob/master/my_use_image/a1.jpg?raw=true' class='img1'></image>
+
+      <image src='https://github.com/leon5458/my_use_image/blob/master/my_use_image/a3.jpg?raw=true' class='img1'></image>
+
+        <image src='https://github.com/leon5458/my_use_image/blob/master/my_use_image/1.jpg?raw=true' class='img1'></image>
+
+</scroll-view>
+
+
+<!--水平滚动-->
+<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+ 
+  <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
+  <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
+</scroll-view>
